@@ -1,0 +1,38 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form{
+
+  width: 350px;
+  height: auto;
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  background-color: coral;
+}
+
+form .inputBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+form .checkBox{
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
